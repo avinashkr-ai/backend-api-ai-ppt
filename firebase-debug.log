@@ -1,0 +1,48 @@
+[debug] [2025-09-13T11:57:13.102Z] ----------------------------------------------------------------------
+[debug] [2025-09-13T11:57:13.105Z] Command:       /nix/store/ws50yvm6vzlzf7jzz6n7xh4szddrack1-nodejs-20.19.1/bin/node /nix/store/wma3rvxxva78rqvnpja82nx5b3mclpxg-firebase-tools-14.15.2/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2025-09-13T11:57:13.106Z] CLI Version:   14.15.2
+[debug] [2025-09-13T11:57:13.106Z] Platform:      linux
+[debug] [2025-09-13T11:57:13.107Z] Node Version:  v20.19.1
+[debug] [2025-09-13T11:57:13.107Z] Time:          Sat Sep 13 2025 11:57:13 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-09-13T11:57:13.107Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-13T11:57:13.113Z] Checked if tokens are valid: true, expires at: 1757768209536
+[debug] [2025-09-13T11:57:13.114Z] Checked if tokens are valid: true, expires at: 1757768209536
+[debug] [2025-09-13T11:57:13.118Z] >>> [apiv2][query] GET https://monospace-pa.googleapis.com/v1/workspaces/backend-api-ai-ppt-60851513 [none]
+[debug] [2025-09-13T11:57:14.240Z] <<< [apiv2][status] GET https://monospace-pa.googleapis.com/v1/workspaces/backend-api-ai-ppt-60851513 200
+[debug] [2025-09-13T11:57:14.240Z] <<< [apiv2][body] GET https://monospace-pa.googleapis.com/v1/workspaces/backend-api-ai-ppt-60851513 {"workspaceId":"backend-api-ai-ppt-60851513","name":"Backend-API-AI-PPT","workspaceRedirectUrl":"firebase-backend-api-ai-ppt-1757761020222.cluster-cz5nqyh5nreq6ua6gaqd7okl7o.cloudworkstations.dev","status":"WORKSPACE_STATUS_RUNNING","lastAccessDatetime":"2025-09-13T10:57:20.215279Z","workspaceTemplate":"WORKSPACE_TEMPLATE_BLANK_WEB","owner":"SELF","serviceAccountEmail":"msp-8104834545959036267@monospace-per-ws-sa-6.iam.gserviceaccount.com","enableNix":true,"ownerEmail":"avinashkumar2rock@gmail.com","workspaceImageUrl":"https://www.gstatic.com/monospace/231115/logo_python.svg","templateArgs":"{\"packageManager\":\"pip\",\"type\":\"api\"}","templateRepoUrl":"file:///usr/local/monospace/templates/public/python-flask","workstationAccessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiZmlyZWJhc2UtYmFja2VuZC1hcGktYWktcHB0LTE3NTc3NjEwMjAyMjIuY2x1c3Rlci1jejVucXloNW5yZXE2dWE2Z2FxZDdva2w3by5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3NTc3NjQ2MzQsImV4cCI6MTc1Nzg1MTAzM30.GC5GyZY7-yl4ydKfxGcxm0SieAhAnJcru86PeMRYDznPwtCbDKaFSC6etI9M9GBRqGrhA-GjzJ5ndFY2pIObFgvV28fjyp8opFHnWLHzHiPuNeuCDIr_SvwNwR69qjLwsLwTzrii9ddVUTxXFujd12MIp4ZfFp7W8Ytoeu0nUsi1zFZko5JYLWUCWBvADc7PGjgWa5V-fmEFjmJJx0uRLIOXYPYiOT-TfWaB0c8JOYxXTZJW-uYBALLBbSthl0OMBqmlec7OIF2grXRcn5G6tZYO_ALVkfcAhTAMkOT5JfGquXxdFQUff9Em-n0Yp1wdFt23TjxYffQE20axJiF4iw"}
+[debug] [2025-09-13T11:57:14.242Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-13T11:57:14.242Z] > authorizing via signed-in user (avinashkumar2rock@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/backend-api-ai-ppt
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-09-13T11:57:16.772Z] Checked if tokens are valid: true, expires at: 1757768209536
+[debug] [2025-09-13T11:57:16.773Z] Checked if tokens are valid: true, expires at: 1757768209536
+[debug] [2025-09-13T11:57:16.774Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-09-13T11:57:17.277Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-09-13T11:57:17.278Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Don't want to scroll through all your projects? If you know your project ID, you can initialize it directly using firebase init --project <project_id>.
+ 
+[info] i  Using project backend-db-aippt (Backend-DB-AIPPT) 
+[info] 
+=== Hosting Setup
+[debug] [2025-09-13T11:57:31.410Z] Checked if tokens are valid: true, expires at: 1757768209536
+[debug] [2025-09-13T11:57:31.411Z] Checked if tokens are valid: true, expires at: 1757768209536
+[debug] [2025-09-13T11:57:31.411Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/backend-db-aippt [none]
+[debug] [2025-09-13T11:57:31.682Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/backend-db-aippt 200
+[debug] [2025-09-13T11:57:31.683Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/backend-db-aippt {"projectId":"backend-db-aippt","projectNumber":"8480195062","displayName":"Backend-DB-AIPPT","name":"projects/backend-db-aippt","resources":{"hostingSite":"backend-db-aippt","realtimeDatabaseInstance":"backend-db-aippt-default-rtdb"},"state":"ACTIVE","etag":"1_03f2cf1b-155c-46a4-a9b6-649897f43c8a"}

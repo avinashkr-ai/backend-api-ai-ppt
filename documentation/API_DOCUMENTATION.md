@@ -23,7 +23,33 @@ This document provides detailed information about the API endpoints available in
   }
   ```
 
-### 2. Get Indexes
+### 2. Twelve Labs Health Check
+
+- **GET /health/twelvelabs**
+
+  Checks the status of the connection to the Twelve Labs API.
+
+  **Response (200 OK):**
+  ```json
+  {
+    "status": "ok"
+  }
+  ```
+
+### 3. Gemini Health Check
+
+- **GET /health/gemini**
+
+  Checks the status of the connection to the Gemini API.
+
+  **Response (200 OK):**
+  ```json
+  {
+    "status": "ok"
+  }
+  ```
+
+### 4. Get Indexes
 
 - **GET /indexes**
 
@@ -39,7 +65,7 @@ This document provides detailed information about the API endpoints available in
   ]
   ```
 
-### 3. Get Videos in Index
+### 5. Get Videos in Index
 
 - **GET /indexes/<index_id>/videos**
 
@@ -58,7 +84,7 @@ This document provides detailed information about the API endpoints available in
   ]
   ```
 
-### 4. Upload Video
+### 6. Upload Video
 
 - **POST /upload**
 
@@ -77,7 +103,7 @@ This document provides detailed information about the API endpoints available in
   }
   ```
 
-### 5. Analyze Video
+### 7. Analyze Video
 
 - **POST /videos/<video_id>/analyze**
 
@@ -86,7 +112,7 @@ This document provides detailed information about the API endpoints available in
   **Response (200 OK):**
   - The response body will contain the detailed analysis from Twelve Labs.
 
-### 6. Generate Presentation
+### 8. Generate Presentation
 
 - **POST /videos/<video_id>/presentation**
 
@@ -116,7 +142,7 @@ This document provides detailed information about the API endpoints available in
   }
   ```
 
-### 7. Get All Presentations
+### 9. Get All Presentations
 
 - **GET /presentations**
 
