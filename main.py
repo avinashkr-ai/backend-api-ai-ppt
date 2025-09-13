@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from dotenv import load_dotenv
 import os
 import requests
@@ -20,6 +21,11 @@ gemini_service = GeminiService()
 firebase_service = FirebaseService()
 
 app = Flask(__name__)
+
+# Configure CORS
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000").split(",")
+CORS(app, resources={r"/*": {"origins": allowed_origins}})
+
 
 # Register blueprints
 app.register_blueprint(presentations_bp)

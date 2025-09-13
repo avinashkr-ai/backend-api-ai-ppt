@@ -13,6 +13,7 @@ cryptography==45.0.7
 datetime==5.5
 firebase_admin==7.1.0
 Flask==3.0.3
+Flask-Cors==4.0.1
 google-ai-generativelanguage==0.6.15
 google-api-core==2.25.1
 google-api-python-client==2.181.0
